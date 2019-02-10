@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="ForMarianna.css" type="text/css">
+    <title>GOVNOKAKOETO</title>
+</head>
+<body>
+
+<script>
+    const slides = 6;
+    let drawTimer = null;
+    function draw(slideNubmer) {
+        clearTimeout(drawTimer);
+        // draw
+        const nextSlide = slideNubmer + 1 === slides ? 0 : slideNubmer + 1;
+        drawTimer = setTimeout(  () => draw(nextSlide));
+    }
+
+    // add draw on dot click
+
+
+</script>
+<div class="wrapper">
+   <div class="header-wrapper">
+    <header>
+        <img src="eos_logo.png" class="header-logo">
+
+
+        <ul class="header-list">
+
+            <li class="header-list-paragraph">
+
+                <span>HOME</span>
+    <!--            <div class="header-list_hidden">
+                    <ul class="header-list_hidden-paragraph">
+                        <li>Lorem ipsum</li>
+                        <li>EOS Lorem ipsum</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem</li>
+                        <li>Lorem ipsum EOS</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                </div><!--header-list_hidden-->
+            </li>
+
+            <li class="header-list-paragraph">
+                <span><img src="strekla.png"></span>
+                <span>PLATFORM</span>
+
+            </li>
+
+            <li class="header-list-paragraph">
+
+                <span>GALLERY</span>
+                <!--            <div class="header-list_hidden">
+                                <ul class="header-list_hidden-paragraph">
+                                    <li>Lorem ipsum</li>
+                                    <li>EOS Lorem ipsum</li>
+                                    <li>Lorem ipsum dolor sit.</li>
+                                    <li>Lorem</li>
+                                    <li>Lorem ipsum EOS</li>
+                                    <li>Lorem ipsum</li>
+                                </ul>
+                            </div><!--header-list_hidden-->
+            </li>
+
+            <li class="header-list-paragraph">
+                <span><img src="strekla.png"></span>
+                <span>VERTICALS</span>
+                <!--            <div class="header-list_hidden">
+                                <ul class="header-list_hidden-paragraph">
+                                    <li>Lorem ipsum</li>
+                                    <li>EOS Lorem ipsum</li>
+                                    <li>Lorem ipsum dolor sit.</li>
+                                    <li>Lorem</li>
+                                    <li>Lorem ipsum EOS</li>
+                                    <li>Lorem ipsum</li>
+                                </ul>
+                            </div><!--header-list_hidden-->
+            </li>
+
+            <li class="header-list-paragraph">
+                <span><img src="strekla.png"></span>
+                <span>COMMUNITY</span>
+                <!--            <div class="header-list_hidden">
+                                <ul class="header-list_hidden-paragraph">
+                                    <li>Lorem ipsum</li>
+                                    <li>EOS Lorem ipsum</li>
+                                    <li>Lorem ipsum dolor sit.</li>
+                                    <li>Lorem</li>
+                                    <li>Lorem ipsum EOS</li>
+                                    <li>Lorem ipsum</li>
+                                </ul>
+                            </div><!--header-list_hidden-->
+            </li>
+
+            <li class="header-list-paragraph">
+                <span><img src="strekla.png"></span>
+                <span>COMPANY</span>
+                <!--            <div class="header-list_hidden">
+                                <ul class="header-list_hidden-paragraph">
+                                    <li>Lorem ipsum</li>
+                                    <li>EOS Lorem ipsum</li>
+                                    <li>Lorem ipsum dolor sit.</li>
+                                    <li>Lorem</li>
+                                    <li>Lorem ipsum EOS</li>
+                                    <li>Lorem ipsum</li>
+                                </ul>
+                            </div><!--header-list_hidden-->
+            </li>
+            <button class="header-button">LAND VIEWER</button>
+        </ul>
+
+
+    </header>
+<div class="header-content">
+
+
+    <img src="logo-eos_big.svg" class="header-content-logo">
+
+    <div class="header-content-text-zag">
+<h1 class="header-content-text">EOS Land Viewer</h1>
+    <h2 class="header-content-text">provides the most advanced data search and on-the-fly analytics</h2>
+    </div>
+
+       <div class="header-content-button">
+           <button class="header-content-button_color-orange">TRY NOW</button>
+           <button class="header-content-button_color-blue">READ MORE</button>
+       </div>
+
+</div><!--header content-->
+   </div><!--header-wrapper-->
+
+
+    <div class="descript">
+<div class=""></div>
+        <p class="descript-text">EOS has created a cloud-based platform and analytics tool from which images and analyses of satellite and other earth observation data are derived in real time for application in business, science, and public policy.</p>
+        <h1 class="descript-zag">EOS PLATFORM CAPABILITIES</h1>
+
+       <div class="descript-img-text">
+        <img src="pic-engine-capabilities.svg" class="descript-img">
+
+           <ul class="descript-text-list">
+        <li class="descript-text-1">On-the-fly processing of thousands of sq km of imageries with instant delivery of the results to the user</li>
+        <li class="descript-text-2">The ability to process any kind of data to create the most comprehensive analytics, such as InSAR and Point cloud, on a huge scale</li>
+        <li class="descript-text-3">Operations based on data from the majority of imagery providers worldwide</li>
+
+           </ul>
+
+           <div class="descript-button">
+               <button class="descript-button_orange">TRY NOW</button>
+               <button class="descript-button_blue">READ MORE</button>
+           </div>
+
+       </div><!--descript-img-text-->
+
+    </div><!--descrip-->
+
+    <div class="content-list">
+        <h1 class="content-list-zag">LET’S GET STARTED!</h1>
+
+        <div class="content-list-wrapper">
+
+<div class="content-list-wrapper-theme">
+        <ul class="content-list-list">
+            <li class="content-list-list-paragraph"><span><img class="content-list-icons" src="https://cdn1.iconfinder.com/data/icons/round-black-icons-2/78/call-512.png"></span>
+            <span class="content-list-list-theme">Land Viewer</span>
+                <p class="content-list-list-subtitle">Is the most advanced tool for imagery search and on-the-fly analytics</p>
+
+
+            <ul class="content-list-sublist">
+                <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                <span>Imagery search</span></li>
+                <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                    <span>Custom band combinations</span></li>
+                <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                    <span>On-the-fly indices calculation</span></li>
+                <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                    <span>Save results in multiple formats</span></li>
+
+            </ul>
+                <button class="content-list-button">LAND VIEWER</button>
+            </li>
+        </ul>
+</div>
+
+            <div class="content-list-wrapper-theme">
+                <ul class="content-list-list">
+                    <li class="content-list-list-paragraph"><span><img class="content-list-icons" src="https://cdn1.iconfinder.com/data/icons/round-black-icons-2/78/call-512.png"></span>
+                        <span class="content-list-list-theme">Land Viewer</span>
+                        <p class="content-list-list-subtitle">Is the most advanced tool for imagery search and on-the-fly analytics</p>
+
+
+                        <ul class="content-list-sublist">
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>Imagery search</span></li>
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>Custom band combinations</span></li>
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>On-the-fly indices calculation</span></li>
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>Save results in multiple formats</span></li>
+
+                        </ul>
+                        <button class="content-list-button">LAND VIEWER</button>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="content-list-wrapper-theme">
+                <ul class="content-list-list">
+                    <li class="content-list-list-paragraph"><span><img class="content-list-icons" src="https://cdn1.iconfinder.com/data/icons/round-black-icons-2/78/call-512.png"></span>
+                        <span class="content-list-list-theme">Land Viewer</span>
+                        <p class="content-list-list-subtitle">Is the most advanced tool for imagery search and on-the-fly analytics</p>
+
+
+                        <ul class="content-list-sublist">
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>Imagery search</span></li>
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>Custom band combinations</span></li>
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>On-the-fly indices calculation</span></li>
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>Save results in multiple formats</span></li>
+
+                        </ul>
+                        <button class="content-list-button">LAND VIEWER</button>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="content-list-wrapper-theme">
+                <ul class="content-list-list">
+                    <li class="content-list-list-paragraph"><span><img class="content-list-icons" src="https://cdn1.iconfinder.com/data/icons/round-black-icons-2/78/call-512.png"></span>
+                        <span class="content-list-list-theme">Land Viewer</span>
+                        <p class="content-list-list-subtitle">Is the most advanced tool for imagery search and on-the-fly analytics</p>
+
+
+                        <ul class="content-list-sublist">
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>Imagery search</span></li>
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>Custom band combinations</span></li>
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>On-the-fly indices calculation</span></li>
+                            <li class="content-list-sublist-paragraph"><span><img class="content-list-arrow" src="https://www.lucky-me.kz/img/left.png"></span>
+                                <span>Save results in multiple formats</span></li>
+
+                        </ul>
+                        <button class="content-list-button">LAND VIEWER</button>
+                    </li>
+                </ul>
+            </div>
+
+        </div><!--content-list-wrapper-->
+
+    </div><!--content-list-->
+
+
+    <div class="gallery">
+        <h1 class="gallery-zag">DISCOVER MORE VERTICALS POWERED BY EOS</h1>
+
+
+
+        <div class="gallery-img">
+            <ul class="gallery-list">
+                <li class="gallery-list-list"><img src="4.jpg" class="gallery-list-img"><span class="gallery-text">News and Media</span></li>
+                <li class="gallery-list-list"><img src="2.jpg" class="gallery-list-img"><span class="gallery-text">Emergency Services</span></li>
+                <li class="gallery-list-list"><img src="1.jpg" class="gallery-list-img"><span class="gallery-text">Lorem ipsum</span></li>
+                <li class="gallery-list-list"><img src="3.jpg" class="gallery-list-img"><span class="gallery-text">Environment, Pollution
+and Climate</span></li>
+            </ul>
+
+            <ul class="gallery-list">
+                <li class="gallery-list-list"><img src="4.jpg" class="gallery-list-img"><span class="gallery-text">Minerals and Mining</span></li>
+                <li class="gallery-list-list"><img src="2.jpg" class="gallery-list-img"><span class="gallery-text">Lorem ipsum</span></li>
+                <li class="gallery-list-list"><img src="1.jpg" class="gallery-list-img"><span class="gallery-text">Utilities
+(water, electricity, waste)</span></li>
+                <li class="gallery-list-list"><img src="3.jpg" class="gallery-list-img"><span class="gallery-text">News and Media</span></li>
+            </ul>
+
+            <ul class="gallery-list">
+                <li class="gallery-list-list"><img src="4.jpg" class="gallery-list-img"><span class="gallery-text">Lorem ipsum</span></li>
+                <li class="gallery-list-list"><img src="2.jpg" class="gallery-list-img"><span class="gallery-text">Travel, Tourism
+and Leisure</span></li>
+                <li class="gallery-list-list"><img src="1.jpg" class="gallery-list-img"><span class="gallery-text">Lorem ipsum</span></li>
+                <li class="gallery-list-list"><img src="3.jpg" class="gallery-list-img"><span class="gallery-text">Insurance and Finance</span></li>
+            </ul>
+
+            <ul class="gallery-list">
+                <li class="gallery-list-list"><img src="4.jpg" class="gallery-list-img"><span class="gallery-text">Lorem ipsum</span></li>
+                <li class="gallery-list-list"><img src="2.jpg" class="gallery-list-img"><span class="gallery-text">Insurance and Finance</span></li>
+                <li class="gallery-list-list"><img src="1.jpg" class="gallery-list-img"><span class="gallery-text">LNews and Media</span></li>
+                <li class="gallery-list-list"><img src="3.jpg" class="gallery-list-img"><span class="gallery-text">Lorem ipsum</span></li>
+            </ul>
+
+            <ul class="gallery-list">
+                <li class="gallery-list-list"><img src="4.jpg" class="gallery-list-img"><span class="gallery-text">Lorem ipsum</span></li>
+                <li class="gallery-list-list"><img src="2.jpg" class="gallery-list-img"><span class="gallery-text">Travel, Tourism
+and Leisure</span></li>
+                <li class="gallery-list-list"><img src="1.jpg" class="gallery-list-img"><span class="gallery-text">Lorem ipsum</span></li>
+                <li class="gallery-list-list"><img src="3.jpg" class="gallery-list-img"><span class="gallery-text">Fisheries</span></li>
+            </ul>
+        </div>
+
+    </div><!--gallery-->
+
+    <footer>
+<div class="footer-wrapper">
+        <p class="footer-content">&reg; Copyright 2019 Earth Observing System. All rights reserved.</p>
+        <p class="footer-content_2">Privacy Policy | Terms of Use</p>
+        <ul class="contacts-footer">
+            <li class="contacts-footer-list"><img src="Shape%201.png"></li>
+            <li class="contacts-footer-list"><img src="shape%202.png"></li>
+            <li class="contacts-footer-list"><img src="Shape.png"></li>
+            <li class="contacts-footer-list"><img src="shape%204.png"></li>
+        </ul>
+
+</div>
+    </footer>
+
+</div><!--wrapper-->
+</body>
+</html>
